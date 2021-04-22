@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: cc8f7a1b6d3685546b8a530b8cdfb626
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8371702105533394100
+    second: X_Idle
+  - first:
+      213: 1841682653280503999
+    second: X_Walk1
+  - first:
+      213: -7683404564190635296
+    second: X_Walk2
+  - first:
+      213: 7530955262903772514
+    second: X_Walk3
+  - first:
+      213: -5315680456992477172
+    second: X_Walk4
+  - first:
+      213: -5794410588463216401
+    second: X_Walk5
+  - first:
+      213: 2850391300633413220
+    second: X_Walk6
+  - first:
+      213: -605799125464538436
+    second: X_Walk7
+  - first:
+      213: -2833352228918371510
+    second: X_Walk8
+  - first:
+      213: 2549811952945570897
+    second: X_Walk9
+  - first:
+      213: -4899048814177976969
+    second: X_Walk10
+  - first:
+      213: -7977835707238309188
+    second: X_Walk11
+  - first:
+      213: 3340656439997041062
+    second: X_Sprite_Sheet_12
+  - first:
+      213: 7368474050574169448
+    second: X_Sprite_Sheet_13
+  - first:
+      213: -7859900881260004454
+    second: X_Sprite_Sheet_14
+  - first:
+      213: 3967497668862379788
+    second: X_Sprite_Sheet_15
+  - first:
+      213: 786396301836211192
+    second: X_Sprite_Sheet_16
+  - first:
+      213: 54266654002529616
+    second: X_Sprite_Sheet_17
+  - first:
+      213: -5987877531717853227
+    second: X_Sprite_Sheet_18
+  - first:
+      213: -9071733042627122300
+    second: X_Sprite_Sheet_19
+  - first:
+      213: 5531458781428876966
+    second: X_Sprite_Sheet_20
+  - first:
+      213: 8246538071796036282
+    second: X_Sprite_Sheet_21
+  - first:
+      213: -6551968564061306624
+    second: X_Sprite_Sheet_22
+  - first:
+      213: 8014078449202588007
+    second: X_Sprite_Sheet_23
+  - first:
+      213: -8040046715631346344
+    second: X_Sprite_Sheet_24
+  - first:
+      213: 1099976496397707121
+    second: X_Sprite_Sheet_25
+  - first:
+      213: -5794784554106438311
+    second: X_Sprite_Sheet_26
+  - first:
+      213: -4045127622975173666
+    second: X_Sprite_Sheet_27
+  - first:
+      213: 7841277287313041153
+    second: X_Sprite_Sheet_28
+  - first:
+      213: 2299119698305548982
+    second: X_Sprite_Sheet_29
+  - first:
+      213: -6594284623298357064
+    second: X_Sprite_Sheet_30
+  - first:
+      213: 2505852005588995540
+    second: X_Sprite_Sheet_31
+  - first:
+      213: -7781573289536558440
+    second: X_Sprite_Sheet_32
+  - first:
+      213: -7252998994882755300
+    second: X_Sprite_Sheet_33
+  - first:
+      213: 1285586906927055413
+    second: X_Sprite_Sheet_34
+  - first:
+      213: -4938067845660278358
+    second: X_Sprite_Sheet_35
+  - first:
+      213: -4709521571032560556
+    second: X_Sprite_Sheet_36
+  - first:
+      213: -1207570413274484659
+    second: X_Sprite_Sheet_37
+  - first:
+      213: -1695589425967927318
+    second: X_Sprite_Sheet_38
+  - first:
+      213: 6754000116978666694
+    second: X_Sprite_Sheet_39
+  - first:
+      213: -6373067240017616846
+    second: X_Sprite_Sheet_40
+  - first:
+      213: 13296635646163376
+    second: X_Sprite_Sheet_41
+  - first:
+      213: 5954459158115387649
+    second: X_Sprite_Sheet_42
+  - first:
+      213: -5459538873905820748
+    second: X_Sprite_Sheet_43
+  - first:
+      213: -3007952014913376717
+    second: X_Sprite_Sheet_44
+  - first:
+      213: 6784143750122273386
+    second: X_Sprite_Sheet_45
+  - first:
+      213: -405776378079227363
+    second: X_Sprite_Sheet_46
+  - first:
+      213: -7510504700544219510
+    second: X_Sprite_Sheet_47
+  - first:
+      213: -5674235663503428329
+    second: X_Sprite_Sheet_48
+  - first:
+      213: 1099252094806065378
+    second: X_Sprite_Sheet_49
+  - first:
+      213: -6656801337840770975
+    second: X_Sprite_Sheet_50
+  - first:
+      213: -9034958504588943116
+    second: X_Sprite_Sheet_51
+  - first:
+      213: 2095985350484751359
+    second: X_Sprite_Sheet_52
+  - first:
+      213: 3506136370050077024
+    second: X_Sprite_Sheet_53
+  - first:
+      213: 1898081772226908923
+    second: X_Sprite_Sheet_54
+  - first:
+      213: -3214314208731437330
+    second: X_Sprite_Sheet_55
+  - first:
+      213: 5000256786769928309
+    second: X_Sprite_Sheet_56
+  - first:
+      213: -3272133052650553212
+    second: X_Sprite_Sheet_57
+  - first:
+      213: 92505395999565780
+    second: X_Sprite_Sheet_58
+  - first:
+      213: 4663150111092904596
+    second: X_Sprite_Sheet_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: X_Idle
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 475
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43da4a4a4db1db80800000000000000
+      internalID: -8371702105533394100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 474
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb888c19d98fe8910800000000000000
+      internalID: 1841682653280503999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 474
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea5dcdd1401f5590800000000000000
+      internalID: -7683404564190635296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk3
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 474
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265ecb039e3538860800000000000000
+      internalID: 7530955262903772514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 474
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c003a7db9c8ea36b0800000000000000
+      internalID: -5315680456992477172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 474
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe843e7154e169fa0800000000000000
+      internalID: -5794410588463216401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 474
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4664e1139cf9e8720800000000000000
+      internalID: 2850391300633413220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk7
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 474
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2a171b7e4c797f0800000000000000
+      internalID: -605799125464538436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk8
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 474
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b52c7d829eda8d0800000000000000
+      internalID: -2833352228918371510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk9
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 474
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154ad533670c26320800000000000000
+      internalID: 2549811952945570897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 474
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d7f9d4f05130cb0800000000000000
+      internalID: -4899048814177976969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_Walk11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 474
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb222a151b8094190800000000000000
+      internalID: -7977835707238309188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
