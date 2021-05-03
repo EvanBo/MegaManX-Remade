@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 2ed1d324660c45d45bf4bf9474eb3b7a
+guid: 30858764df5960c47a9ed928ddc9da69
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7062452195948332970
-    second: Intro Stage_0
+      213: -5258918052481123349
+    second: Target1
   - first:
-      213: 5826751357629873769
-    second: Background_1
+      213: -7396857225974545868
+    second: Target2
   - first:
-      213: -4657541067519391526
-    second: Background_2
+      213: -1298823784127866116
+    second: Target3
   - first:
-      213: 895538626402667801
-    second: Intro Stage_3
+      213: -7628778601258098140
+    second: Target4
   - first:
-      213: -7265798119822523364
-    second: Intro Stage_2
-  - first:
-      213: -8198127424724200389
-    second: Full into 1
+      213: -9177226125052211566
+    second: Target5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -83,7 +80,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -95,7 +92,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -109,118 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Intro Stage_0
+      name: Target1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 975
-        width: 384
-        height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa78dae8aded20260800000000000000
-      internalID: 7062452195948332970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background_1
-      rect:
-        serializedVersion: 2
-        x: 2333
-        y: 142
-        width: 2504
-        height: 247
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96ebd020d77ccd050800000000000000
-      internalID: 5826751357629873769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 722
-        width: 517
-        height: 244
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad886b763171d5fb0800000000000000
-      internalID: -4657541067519391526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Intro Stage_3
-      rect:
-        serializedVersion: 2
-        x: 3147
-        y: 749
-        width: 346
-        height: 440
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91d4f5dc2a79d6c00800000000000000
-      internalID: 895538626402667801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Intro Stage_2
-      rect:
-        serializedVersion: 2
-        x: 4510
-        y: 974
-        width: 240
-        height: 184
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c14074a1b13ba2b90800000000000000
-      internalID: -7265798119822523364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Full into 1
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 975
-        width: 1321
-        height: 255
+        x: 1
+        y: 122
+        width: 59
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +120,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b341de1fa866a3e80800000000000000
-      internalID: -8198127424724200389
+      spriteID: beb39fae4e19407b0800000000000000
+      internalID: -5258918052481123349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 122
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432818f0b85195990800000000000000
+      internalID: -7396857225974545868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 122
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfada3956a6a9fde0800000000000000
+      internalID: -1298823784127866116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 130
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422e8e9f742212690800000000000000
+      internalID: -7628778601258098140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 77
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e04d85671f3a080800000000000000
+      internalID: -9177226125052211566
       vertices: []
       indices: 
       edges: []
