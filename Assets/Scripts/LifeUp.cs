@@ -15,6 +15,7 @@ public class LifeUp : MonoBehaviour
         {
             theLM.AddLife();
             Destroy(gameObject);
+            ScoreManager.instance.AddPoint();
         }
     }
 }
