@@ -121,61 +121,61 @@ TextureImporter:
     second: Blast2_7
   - first:
       213: 6754000116978666694
-    second: X_Sprite_Sheet_39
+    second: Idle_Shoot1
   - first:
       213: -6373067240017616846
-    second: X_Sprite_Sheet_40
+    second: Idle_Shoot2
   - first:
       213: 13296635646163376
-    second: X_Sprite_Sheet_41
+    second: Jump_Shoot1
   - first:
       213: 5954459158115387649
-    second: X_Sprite_Sheet_42
+    second: Jump_Shoot2
   - first:
       213: -5459538873905820748
-    second: X_Sprite_Sheet_43
+    second: Jump_Shoot3
   - first:
       213: -3007952014913376717
-    second: X_Sprite_Sheet_44
+    second: Jump_Shoot4
   - first:
       213: 6784143750122273386
-    second: X_Sprite_Sheet_45
+    second: Jump_Shoot5
   - first:
       213: -405776378079227363
-    second: X_Sprite_Sheet_46
+    second: Jump_Shoot6
   - first:
       213: -7510504700544219510
-    second: X_Sprite_Sheet_47
+    second: Jump_Shoot7
   - first:
       213: -5674235663503428329
-    second: X_Sprite_Sheet_48
+    second: Walk_Shoot1
   - first:
       213: 1099252094806065378
-    second: X_Sprite_Sheet_49
+    second: Walk_Shoot2
   - first:
       213: -6656801337840770975
-    second: X_Sprite_Sheet_50
+    second: Walk_Shoot3
   - first:
       213: -9034958504588943116
-    second: X_Sprite_Sheet_51
+    second: Walk_Shoot4
   - first:
       213: 2095985350484751359
-    second: X_Sprite_Sheet_52
+    second: Walk_Shoot5
   - first:
       213: 3506136370050077024
-    second: X_Sprite_Sheet_53
+    second: Walk_Shoot6
   - first:
       213: 1898081772226908923
-    second: X_Sprite_Sheet_54
+    second: Walk_Shoot7
   - first:
       213: -3214314208731437330
-    second: X_Sprite_Sheet_55
+    second: Walk_Shoot8
   - first:
       213: 5000256786769928309
-    second: X_Sprite_Sheet_56
+    second: Walk_Shoot9
   - first:
       213: -3272133052650553212
-    second: X_Sprite_Sheet_57
+    second: Walk_Shoot10
   - first:
       213: 92505395999565780
     second: X_Sprite_Sheet_58
@@ -951,7 +951,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -972,7 +972,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -993,7 +993,7 @@ TextureImporter:
         width: 28
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1014,7 +1014,7 @@ TextureImporter:
         width: 32
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1035,7 +1035,7 @@ TextureImporter:
         width: 38
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1056,7 +1056,7 @@ TextureImporter:
         width: 40
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1077,7 +1077,7 @@ TextureImporter:
         width: 36
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1085,6 +1085,405 @@ TextureImporter:
       bones: []
       spriteID: aefe544966e0878e0800000000000000
       internalID: -1695589425967927318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Shoot1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 326
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccc57972570bbd50800000000000000
+      internalID: 6754000116978666694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Shoot2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 326
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23022157c115e87a0800000000000000
+      internalID: -6373067240017616846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Shoot1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 369
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9b56c383d3f2000800000000000000
+      internalID: 13296635646163376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Shoot2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 369
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1090a056e0d72a250800000000000000
+      internalID: 5954459158115387649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Shoot3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 369
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb486fe152db34b0800000000000000
+      internalID: -5459538873905820748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Shoot4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 369
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33eeaa9449b9146d0800000000000000
+      internalID: -3007952014913376717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Shoot5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 369
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a793bfbce162e50800000000000000
+      internalID: 6784143750122273386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Shoot6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 369
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12d756b8846e5af0800000000000000
+      internalID: -405776378079227363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Shoot7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 369
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86092864c355c790800000000000000
+      internalID: -7510504700544219510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Shoot1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 422
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71576093ab01141b0800000000000000
+      internalID: -5674235663503428329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Shoot2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 422
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e00585c4f3514f00800000000000000
+      internalID: 1099252094806065378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Shoot3
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 422
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160e7a5d37a4e93a0800000000000000
+      internalID: -6656801337840770975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Shoot4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 422
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0e49dfb116d9280800000000000000
+      internalID: -9034958504588943116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Shoot5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 422
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3f01e329f661d10800000000000000
+      internalID: 2095985350484751359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Shoot6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 422
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06199e6c37c48a030800000000000000
+      internalID: 3506136370050077024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Shoot7
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 422
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf29a3cb057575a10800000000000000
+      internalID: 1898081772226908923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Shoot8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 422
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee66210e1467463d0800000000000000
+      internalID: -3214314208731437330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Shoot9
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 422
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57068291e0b746540800000000000000
+      internalID: 5000256786769928309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Shoot10
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 422
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48003fa335c0792d0800000000000000
+      internalID: -3272133052650553212
       vertices: []
       indices: 
       edges: []

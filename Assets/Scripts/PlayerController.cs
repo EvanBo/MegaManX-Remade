@@ -22,6 +22,19 @@ public class PlayerController : MonoBehaviour
     private Animator theAnimator;
     public GameManager theGM;
     private LivesManager theLM;
+
+    public Transform firePoint;
+    public GameObject shotPrefab;
+    public float shotForce;
+
+    public bool shoot = false;
+
+    public float timeBetweenShots;
+    [SerializeField]
+    private float shotTimer;
+
+    private bool right = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,10 +45,24 @@ public class PlayerController : MonoBehaviour
         airTimeCounter = airTime;
         dfltSpeed = speed;
         ctrlActive = true;
+        shotTimer = timeBetweenShots;
     }
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButtonDown(0)){
+            shoot = true;
+            /*shotTimer = timeBetweenShots;*/
+            theAnimator.SetBool("Shoot", shoot);
+            Shoot();
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            shoot = false;
+            theAnimator.SetBool("Shoot", shoot);
+        }
+            
+
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
         {
             canMove = true;
@@ -59,21 +86,28 @@ public class PlayerController : MonoBehaviour
             theRB2D.velocity.y);
             theAnimator.SetFloat("Speed", Mathf.Abs(theRB2D.velocity.x));
             if (theRB2D.velocity.x > 0)
+            {
                 transform.localScale = new Vector2(1f, 1f);
+                right = true;
+            }
             else if (theRB2D.velocity.x < 0)
+            {
                 transform.localScale = new Vector2(-1f, 1f);
+                right = false;
+            }
+                
         }
     }
     void Jump()
     {
         if (grounded == true)
         {
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 theRB2D.velocity = new Vector2(theRB2D.velocity.x, jumpForce);
             }
         }
-        if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(0))
+        if (Input.GetKey(KeyCode.Space))
         {
             if (airTimeCounter > 0)
             {
@@ -81,7 +115,7 @@ public class PlayerController : MonoBehaviour
                 airTimeCounter -= Time.deltaTime;
             }
         }
-        if (Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonUp(0))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             airTimeCounter = 0;
         }
@@ -126,4 +160,20 @@ public class PlayerController : MonoBehaviour
         ctrlActive = true;
         theGM.Reset();
     }
+
+    void Shoot()
+    {
+            //shoot = true;
+            theAnimator.SetBool("Shoot", shoot);
+            GameObject Lemon = Instantiate(shotPrefab, firePoint.position, firePoint.rotation);
+            Rigidbody2D rb2d = Lemon.GetComponent<Rigidbody2D>();
+
+            if (right == true)
+                rb2d.AddForce(firePoint.right * shotForce, ForceMode2D.Impulse);
+            else if (right == false)
+                rb2d.AddForce(firePoint.right * -1 * shotForce, ForceMode2D.Impulse);
+            
+            
+    }
+    
 }
